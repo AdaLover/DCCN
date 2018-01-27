@@ -73,7 +73,7 @@ public class Classify_IP_into_classes {
     String checkIP(String IPString)
     {
         boolean b=Pattern.matches("\\b(25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1?[0-9]?[0-9])\\b",IPString);
-        return b?"Valid IP":"Invalid IP";
+        return b?"Valid IP":"Invalid Ip";
     }
     String getClass(String IP){
             String IPClassified="";
